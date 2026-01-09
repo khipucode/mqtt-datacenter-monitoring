@@ -92,6 +92,13 @@ O sistema utiliza um Broker MQTT (EMQX Cloud) para troca de mensagens.
 
 ## 📸 Demonstração
 *(Aqui você pode inserir o link do seu vídeo no YouTube ou prints do Wokwi)*
+<img width="834" height="517" alt="image" src="https://github.com/user-attachments/assets/26dcba5d-8f1e-4119-8586-52b7f44478ef" />
+<img width="834" height="517" alt="image" src="https://github.com/user-attachments/assets/8d3bab7c-49ae-4e2e-a9e7-691093ab74ef" />
+<img width="834" height="517" alt="image" src="https://github.com/user-attachments/assets/9f42f193-2dda-42cb-ada6-2031a4f11e28" />
+<img width="1835" height="931" alt="image" src="https://github.com/user-attachments/assets/43b833c3-cc2c-42a6-85e5-547665ae58bf" />
+
+
+
 
 ---
 **Desenvolvido por:** [Seu Nome]
