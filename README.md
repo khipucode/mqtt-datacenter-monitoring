@@ -29,7 +29,7 @@ NOME-DO-PROJETO/
     └── circuito_wokwi.png    # Screenshot da simulação funcionando
 ```
 
-##📡 Monitoramento Inteligente de Data Center (IoT)
+#📡 Monitoramento Inteligente de Data Center (IoT)
 
 > Projeto desenvolvido para a disciplina de IoT, simulando o controle ambiental e de segurança de um Server Room utilizando ESP32 e protocolo MQTT.
 
