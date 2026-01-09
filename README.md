@@ -33,6 +33,8 @@ NOME-DO-PROJETO/
 
 > Projeto desenvolvido para a disciplina de IoT, simulando o controle ambiental e de segurança de um Server Room utilizando ESP32 e protocolo MQTT.
 
+<img width="1095" height="584" alt="image" src="https://github.com/user-attachments/assets/2408a6b2-82af-4078-990f-7945ea0beea7" />
+
 ## 📋 Descrição
 Este sistema tem como objetivo monitorar as condições críticas de um rack de servidores. Ele previne superaquecimento e acessos não autorizados, permitindo monitoramento local (LCD) e remoto (Nuvem/MQTT).
 
