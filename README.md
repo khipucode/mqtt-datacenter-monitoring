@@ -98,7 +98,7 @@ O sistema utiliza um Broker MQTT (EMQX Cloud) para troca de mensagens.
 <img width="1835" height="931" alt="image" src="https://github.com/user-attachments/assets/43b833c3-cc2c-42a6-85e5-547665ae58bf" />
 
 
-
+## Link do projeto no wokwi: https://wokwi.com/projects/452697865103979521
 
 ---
-**Desenvolvido por:** [Seu Nome]
+**Desenvolvido por:** [Leonid HM]
