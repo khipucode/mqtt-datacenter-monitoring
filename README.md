@@ -45,9 +45,9 @@ O sistema utiliza um Broker MQTT (EMQX Cloud) para troca de mensagens.
 ### Tópico de Subscrição (Nuvem -> ESP32)
 | Tópico | Descrição | Comandos Aceitos |
 | :--- | :--- | :--- |
-| `fiap/datacenter/rack01/cooler/comando` | Controle do Cooler | `LIGAR` ou `DESLIGAR` |
+| `fiap/datacenter/rack01/cooler/comando` | Controle do Cooler | `ON` ou `OFF` |
 
-> **Nota:** O sistema aceita comandos tanto em texto puro (`LIGAR`) quanto em JSON (`{"msg": "LIGAR"}`).
+> **Nota:** O sistema aceita comandos tanto em texto puro (`ON`) quanto em JSON (`{"msg": "ON"}`).
 
 ## 🚀 Como Executar
 
