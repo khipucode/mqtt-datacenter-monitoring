@@ -1,4 +1,35 @@
-# 📡 Monitoramento Inteligente de Data Center (IoT)
+# 🛡️ Sistema de Monitoramento Inteligente para Data Centers (IoT)
+
+## 📖 Sobre o Projeto
+
+Este projeto consiste em um Sistema de Monitoramento Inteligente para Data Centers baseado em IoT. O objetivo é garantir a segurança física e térmica de racks de servidores críticos.
+
+Utilizando um microcontrolador **ESP32**, o sistema monitora temperatura e umidade em tempo real (via sensor **DHT22**) e detecta invasões físicas no local (via sensor **PIR**). As informações são exibidas localmente em um **Display LCD** e enviadas via protocolo **MQTT com criptografia SSL/TLS** para um broker na nuvem (EMQX).
+
+Além do monitoramento, o sistema possui um atuador de resfriamento de emergência (simulado por LED), que pode ser acionado remotamente por comandos via dashboard ou cliente MQTT. O código foi desenvolvido para ser resiliente, com reconexão automática e tratamento flexível de mensagens (JSON ou texto puro).
+
+---
+
+## 📂 Estrutura de Arquivos
+
+Abaixo está a organização das pastas e arquivos deste repositório:
+
+```text
+NOME-DO-PROJETO/
+│
+├── README.md                 # Documentação principal do projeto
+├── diagram.json              # Arquivo de configuração de hardware do Wokwi
+├── .gitignore                # Arquivos ignorados pelo Git (ex: builds locais)
+│
+├── src/                      # Código fonte do projeto
+│   └── sketch.ino            # Código principal C++ (Arduino Framework)
+│
+└── img/                      # Imagens para documentação
+    ├── arquitetura.png       # Infográfico da arquitetura do sistema
+    └── circuito_wokwi.png    # Screenshot da simulação funcionando
+
+
+##📡 Monitoramento Inteligente de Data Center (IoT)
 
 > Projeto desenvolvido para a disciplina de IoT, simulando o controle ambiental e de segurança de um Server Room utilizando ESP32 e protocolo MQTT.
 
