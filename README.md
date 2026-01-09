@@ -27,7 +27,7 @@ NOME-DO-PROJETO/
 └── img/                      # Imagens para documentação
     ├── arquitetura.png       # Infográfico da arquitetura do sistema
     └── circuito_wokwi.png    # Screenshot da simulação funcionando
-
+```
 
 ##📡 Monitoramento Inteligente de Data Center (IoT)
 
