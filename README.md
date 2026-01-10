@@ -18,15 +18,10 @@ Abaixo está a organização das pastas e arquivos deste repositório:
 NOME-DO-PROJETO/
 │
 ├── README.md                 # Documentação principal do projeto
-├── diagram.json              # Arquivo de configuração de hardware do Wokwi
-├── .gitignore                # Arquivos ignorados pelo Git (ex: builds locais)
 │
 ├── src/                      # Código fonte do projeto
-│   └── sketch.ino            # Código principal C++ (Arduino Framework)
-│
-└── img/                      # Imagens para documentação
-    ├── arquitetura.png       # Infográfico da arquitetura do sistema
-    └── circuito_wokwi.png    # Screenshot da simulação funcionando
+    └── sketch.ino            # Código principal C++ (Arduino Framework)
+
 ```
 
 #📡 Monitoramento Inteligente de Data Center (IoT)
