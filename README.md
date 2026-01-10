@@ -2,11 +2,9 @@
 
 ## 📖 Sobre o Projeto
 
-Este projeto consiste em um Sistema de Monitoramento Inteligente para Data Centers baseado em IoT. O objetivo é garantir a segurança física e térmica de racks de servidores críticos.
-
-Utilizando um microcontrolador **ESP32**, o sistema monitora temperatura e umidade em tempo real (via sensor **DHT22**) e detecta invasões físicas no local (via sensor **PIR**). As informações são exibidas localmente em um **Display LCD** e enviadas via protocolo **MQTT com criptografia SSL/TLS** para um broker na nuvem (EMQX).
-
-Além do monitoramento, o sistema possui um atuador de resfriamento de emergência (simulado por LED), que pode ser acionado remotamente por comandos via dashboard ou cliente MQTT. O código foi desenvolvido para ser resiliente, com reconexão automática e tratamento flexível de mensagens (JSON ou texto puro).
+Este projeto consiste em um Sistema de Monitoramento para data centers baseado em IoT-MQTT usando ESP32 no wokwi. O objetivo é garantir a segurança física e térmica de racks de servidores críticos.
+O sistema monitora temperatura e umidade em tempo real (via sensor DHT22) e detecta invasões físicas no local (via sensor PIR). As informações são monstradas em um Display LCD e enviadas via protocolo MQTT com criptografia SSL/TLS para um broker na nuvem (EMQX).
+Além do monitoramento, o sistema possui um atuador (alarme ou poderia ser de resfriamento de emergência) simulado por LED, que pode ser acionado remotamente por comandos via dashboard ou cliente MQTT como um celular usando o app MQTT-dashboard.
 
 ---
 
