@@ -33,7 +33,7 @@ Este sistema tem como objetivo monitorar as condições críticas de um rack de 
 * **Monitoramento Térmico:** Leitura constante de Temperatura e Umidade.
 * **Segurança Física:** Detecção de movimento/presença perto do rack.
 * **Dashboard Local:** Display LCD 16x2 com status em tempo real.
-* **Controle Remoto:** Atuador (Cooler/LED) acionado via comandos MQTT.
+* **Controle Remoto:** Atuador (Cooler/LED) acionado via comandos MQTT e/o app MQTT dashboard.
 * **Conectividade Segura:** Comunicação via MQTT sobre SSL/TLS (Porta 8883).
 
 ## 🛠️ Hardware Utilizado (Simulação Wokwi)
@@ -71,18 +71,6 @@ O sistema utiliza um Broker MQTT (EMQX Cloud) para troca de mensagens.
 | :--- | :--- | :--- |
 | `fiap/datacenter/rack01/cooler/comando` | Controle do Cooler | `ON` ou `OFF` |
 
-> **Nota:** O sistema aceita comandos tanto em texto puro (`ON`) quanto em JSON (`{"msg": "ON"}`).
-
-## 🚀 Como Executar
-
-1.  **Montagem:** Replique o circuito conforme a tabela de hardware acima.
-2.  **Código:** Carregue o arquivo `sketch.ino` no ESP32.
-3.  **Credenciais:** Edite as variáveis `ssid`, `password`, `MQTT_USER` e `MQTT_PASS` no código conforme sua rede.
-4.  **Teste:**
-    * Conecte um Cliente MQTT (MQTTX ou HiveMQ).
-    * Assine o tópico `fiap/datacenter/#`.
-    * Publique `LIGAR` no tópico de comando para testar o atuador.
-
 ## 📸 Demonstração
 
 <img width="834" height="517" alt="image" src="https://github.com/user-attachments/assets/26dcba5d-8f1e-4119-8586-52b7f44478ef" />
@@ -94,4 +82,4 @@ O sistema utiliza um Broker MQTT (EMQX Cloud) para troca de mensagens.
 **Link do projeto no wokwi:** https://wokwi.com/projects/452697865103979521
 
 ---
-**Desenvolvido por:** [Leonid HM]
+**Desenvolvido por:** Leonid HM
