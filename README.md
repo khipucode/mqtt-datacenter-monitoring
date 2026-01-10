@@ -1,4 +1,4 @@
-# 🛡️ Sistema de Monitoramento Inteligente para Data Centers (IoT)
+# 🛡️ Sistema de Monitoramento para Data Centers (IoT)
 
 ## 📖 Sobre o Projeto
 
